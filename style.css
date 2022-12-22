@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.box:first-child {
+    position: absolute;
+    width: 602px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+}
+.box:nth-child(2){
+    position: absolute;
+    width: 270px;
+    height: 202.5px;
+    left: 742px;
+    top: 0px;
+}
+.box:last-child{
+    position: absolute;
+}
